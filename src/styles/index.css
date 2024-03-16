@@ -1,0 +1,30 @@
+body {
+  background-color: #4caf50;
+}
+
+.panel-header {
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  position: relative;
+}
+
+.button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #008cba;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #005f7a;
+}

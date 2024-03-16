@@ -1,0 +1,42 @@
+.fact-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.fact-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.fact-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.fact-button:hover {
+  background-color: #005f7a;
+  cursor: pointer;
+}
+
+.fact-button:disabled {
+  background-color: #aaaaaa;
+  cursor: not-allowed;
+}
+
+.textarea {
+  width: 97%;
+  min-height: 100px;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  resize: none;
+}
